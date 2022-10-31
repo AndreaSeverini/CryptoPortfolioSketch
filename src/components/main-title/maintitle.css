@@ -1,0 +1,71 @@
+@import url("https://fonts.googleapis.com/css2?family=Antonio:wght@500&display=swap");
+.jupiter__separator {
+  height: 1rem;
+}
+
+.jupiter__home-general {
+  display: flex;
+  color: white;
+  justify-content: flex-end;
+
+  /* background:linear-gradient(272deg, rgba(255, 255, 255, 1) 0%, rgba(0, 0, 0, 1) 90%); */
+}
+
+.jupiter__hr {
+  border-bottom: 1px solid black;
+}
+
+.jupiter__home > div:first-of-type {
+  margin-top: 7rem;
+}
+
+.jupiter__home-h1 {
+  position: fixed;
+  top: 1rem;
+  right: 6rem;
+  left: 6rem;
+  background: linear-gradient(
+    0deg,
+    rgba(133, 133, 133, 1) 0%,
+    rgba(60, 60, 60, 1) 56%,
+    rgba(0, 0, 0, 1) 100%
+  );
+  border-bottom-left-radius: 1rem;
+  border-bottom-right-radius: 1rem;
+  z-index: 1;
+}
+
+.jupiter__home-h1 h1 {
+  /* display: none; */
+  height: 9rem;
+  font-family: "Antonio", sans-serif;
+  font-weight: 800;
+  font-size: 55px;
+  line-height: 60px;
+
+  text-transform: uppercase;
+  background: linear-gradient(
+    0deg,
+    rgba(0, 0, 0, 1) 11%,
+    rgba(255, 255, 255, 1) 47%,
+    rgba(255, 255, 255, 1) 100%
+  );
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  padding: 0.7rem 2rem 2rem;
+  /* color: linear-gradient(157deg, rgba(255, 255, 255, 1) 0%, rgba(0, 0, 0, 1) 100%);
+    background:radial-gradient(ellipse at 50% 50%, rgba(255, 255, 255, 1) 0%, rgba(0, 0, 0, 1) 100%); */
+  border: 1px solid black;
+  box-shadow: rgba(0, 0, 0, 0.09) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px,
+    rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px,
+    rgba(0, 0, 0, 0.09) 0px 32px 16px;
+  border-bottom-left-radius: 1rem;
+  border-bottom-right-radius: 1rem;
+
+  justify-content: space-around;
+  text-align: center;
+  /* text-transform: uppercase; */
+
+  letter-spacing: 0.1rem;
+}

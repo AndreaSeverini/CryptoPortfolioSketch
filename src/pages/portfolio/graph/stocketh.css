@@ -1,0 +1,30 @@
+.jupiter__portfolio-graph-2 {
+    display: flex;
+    justify-content: center;
+    color:white;
+    min-width: 40rem;
+    min-height: 20rem;
+    padding: 0.07rem;
+    border-radius: 0.5rem;
+    box-shadow: rgba(0, 0, 0, 0.09) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+    background:linear-gradient(0deg, rgba(133, 133, 133, 1) 0%, rgba(60, 60, 60, 1) 56%, rgba(0, 0, 0, 1) 100%);
+    
+}
+
+#container {
+    min-width: 40rem;
+    min-height: 20rem;
+}
+#container:first-child {
+    box-shadow: rgba(0, 0, 0, 0.09) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+   
+}
+
+@media screen and (max-width: 1050px) {
+    .jupiter__portfolio-graph-2 {
+        border-radius: 1rem;
+        
+        align-self: flex-start;
+
+    } 
+}
